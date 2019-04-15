@@ -9,6 +9,7 @@
             "description": "Test Objectives: To understand what sensitive design and configuration information of the application/system/organization is exposed both directly (on the organization's website) or indirectly (on a third party website).",
             "resources": ["https://www.owasp.org/index.php/Conduct_search_engine_discovery/reconnaissance_for_information_leakage_(OTG-INFO-001)"],
             "bugs": [],
+            "useful commands": ["whois $TARGET","theharvester -d $TARGET -l 25 -b all","metagoofil -d $TARGET -t doc,pdf,xls,csv,txt -l 25 -n 25 -o $LOOTTDIR"],
             "notes": ""
           },
           "OTG-INFO-002 Fingerprint Web Server": {
